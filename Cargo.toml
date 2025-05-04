@@ -4,3 +4,21 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.98"
+chrono = "0.4.40"
+clap = { version = "4.5.37", features = ["derive"] }
+cron = "0.15.0"
+epub-builder = "0.8.0"
+feed-rs = { version = "2.3.1", features = ["sanitize"] }
+html5ever = "0.31.0"
+lettre = "0.11.15"
+log = "0.4.27"
+markup5ever_rcdom = "=0.5.3-unofficial"
+rand = "0.9.1"
+reqwest = { version = "0.12.15", features = ["blocking"] }
+rusqlite = { version = "0.35.0", features = ["bundled"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_yml = "0.0.12"
+simple_logger = "5.0.0"
+tendril = "0.4.3"
+xml5ever = "0.22.1"
